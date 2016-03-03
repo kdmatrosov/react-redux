@@ -28,6 +28,6 @@ class App extends Component {
 			<VideoList videos={this.state.videos}/>
 		</div>);
 	}
-};
+}
 const container = document.querySelector('.container');
 ReactDom.render(<App/>, container);
